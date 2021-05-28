@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Account</title>
+</head>
+<style>
+		body{
+			text-align: center;
+			font-family: Cambria;
+			background-color:violet;"
+		}
+		
+	</style>
+	<body>
+	
+	<div id="main">
+	<div class="h-tag">
+<br>
+<br>
+<br>
+<br>
+<hr style="border-color: black">
+<hr style="border-color: black">
+	<h2>Login Account</h2>
+	</div>
+<hr style="border-color: black">
+<hr style="border-color: black">
+<p style = "color: black; font-size: 15px">
+USERNAME: email 
+<br>
+PASSWORD: email123
+	<div class="login">
+	<table cellspacing="2" align="center" cellpadding="8" border="0">
+	<tr>
+<br>
+<br>
+<br>
+<br>
+<br>
+<form name="login">
+
+	<td> Enter User Name :</td>
+	<td><input type="text" placeholder="Enter user name here" id="email" class="tb" /></td>
+	</tr>
+	<tr>
+	<td>Enter Password :</td>
+	<td><input type="password" placeholder="Enter Password here" id="pwd" class="tb" /></td>
+	</tr>
+	<tr>
+	<td></td>
+	<td>
+
+	<input type="button" onclick="check(this.form)" value="Login"/></td>
+
+
+	</tr>
+	</table>
+	</div>
+  
+	</div>
+	<br>
+<br>
+<br>
+</form>
+<script>
+function check(form)
+{
+if(form.email.value == "email" && form.pwd.value == "email123")
+ {
+alert("Logged in")
+}
+ else
+ {
+   alert("Wrong Password or Username")
+  }
+}
+</script>
+  </body>
+  </html>
+  
